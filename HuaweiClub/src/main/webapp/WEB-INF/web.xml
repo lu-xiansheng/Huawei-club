@@ -23,9 +23,9 @@ version="2.5">
 </servlet-mapping> -->
     <servlet-mapping>  
         <servlet-name>spring-mvc</servlet-name>  
-        <url-pattern>*.do</url-pattern> 
-    </servlet-mapping> 
-<!-- <welcome-file-list>
+        <url-pattern>/</url-pattern> 
+    </servlet-mapping>  
+<!-- <welcome-file-list> 
 	默认进入index controller
 	<welcome-file>index</welcome-file>
 </welcome-file-list>  -->
@@ -33,9 +33,9 @@ version="2.5">
 		<servlet-name>jsp</servlet-name> 
 		<url-pattern>*.html</url-pattern> 
 	</servlet-mapping> 
-	<welcome-file-list>
-        <welcome-file>home.do</welcome-file>
-    </welcome-file-list>  
+	<!-- <welcome-file-list>
+        <welcome-file>index</welcome-file>
+    </welcome-file-list>  -->  
 	     
 <!-- 防止html出现中文乱码 -->
   <jsp-config>    
@@ -48,8 +48,8 @@ version="2.5">
       <scripting-invalid>true</scripting-invalid>  
     </jsp-property-group>  
   </jsp-config>  
-  <!--        
-    <servlet-mapping>
+        
+    <!-- <servlet-mapping>
      	<servlet-name>default</servlet-name>
      	<url-pattern>*.css</url-pattern>
 	</servlet-mapping>
