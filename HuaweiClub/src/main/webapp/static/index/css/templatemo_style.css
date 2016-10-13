@@ -252,12 +252,12 @@ h3 {
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 .resp-vtabs ul.templatemo_tab { float: left; width: 100%; }
-.resp-vtabs ul.templatemo_tab li { padding: 0px; background: url(../images/templatemo_arrow_gap.png) no-repeat center right #cc9933; font-size: 24px; text-align: center; font-weight: normal; }
-.resp-vtabs ul.templatemo_tab li.resp-tab-active{ background: url(../images/templatemo_arrow.png) no-repeat center right #cc9933; border: 0px; padding: 0px; color: #ffffff; }
+.resp-vtabs ul.templatemo_tab li { padding: 0px; background: url(static/index/images/templatemo_arrow_gap.png) no-repeat center right #cc9933; font-size: 24px; text-align: center; font-weight: normal; }
+.resp-vtabs ul.templatemo_tab li.resp-tab-active{ background: url(static/index/images/templatemo_arrow.png) no-repeat center right #cc9933; border: 0px; padding: 0px; color: #ffffff; }
 
 .resp-vtabs ul.templatemo_testitab { float: left; width: 100%; }
-.resp-vtabs ul.templatemo_testitab li { padding: 0px; background: url(../images/templatemo_arrow_gap.png) no-repeat center right #339966; font-size: 24px; text-align: center; font-weight: normal; }
-.resp-vtabs ul.templatemo_testitab li.resp-tab-active { background: url(../images/templatemo_testi_arrow.png) no-repeat center right #339966; border: 0px; padding: 0px; color: #ffffff;  }
+.resp-vtabs ul.templatemo_testitab li { padding: 0px; background: url(static/index/images/templatemo_arrow_gap.png) no-repeat center right #339966; font-size: 24px; text-align: center; font-weight: normal; }
+.resp-vtabs ul.templatemo_testitab li.resp-tab-active { background: url(static/index/images/templatemo_testi_arrow.png) no-repeat center right #339966; border: 0px; padding: 0px; color: #ffffff;  }
 
 .resp-vtabs .templatemo_aboutcontainer, .resp-vtabs .templatemo_testicontainer	{  background: none; border-radius: 0px; border: 0px; }
 h2.resp-accordion	{ color: #ffffff; }
@@ -296,7 +296,7 @@ h2.resp-accordion	{ color: #ffffff; }
 	.templatemo_topgap	{	margin-top: 20px; }
 	.templatemo_portfotopgap	{ margin-top: 0px; } 
 	.templatemo_link { padding-top: 20%; }
-	/*.container { left: 50%; margin-left: -375px; right: 0px; }*/
+	/*.container { left: 50%; margin-left: -375px; right: 0px; }*/ 
 	.logocontainer	{ width: 750px; padding: 0px 15px; margin: 0 auto; }
 	.templatemo_insideportfolio	{ height: 398px; }
 	.templatemo_link, .templatemo_linkservice, .templatemo_linkcontact 	{ height: 189px; line-height: 189px; padding: 0px; }
@@ -305,7 +305,7 @@ h2.resp-accordion	{ color: #ffffff; }
 @media(min-width:992px) {
 	.templatemo_leftgap	{ padding: 0px 6px; }
 	.templatemo_rightgap_about	{ padding: 0px 6px 0px 2px; }
-	.templatemo_botgap	{ margin: 0px 0px 12px 0px; }
+	.templatemo_botgap	{ margin: 0px 0px 12px 0px; }  
 	.templatemo_topgap	{	margin-top: 0px; }
 	.templatemo_portfotopgap	{ margin-top: 0px; }
 	.templatemo_bordergapborder	{ padding: 0px; margin: 0px; }
